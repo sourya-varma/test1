@@ -1,4 +1,5 @@
 from full_name import fullName
+from full_name import *
 
 def test_normal_case():
     assert fullName("John", "Doe") == "My Full Name is John Doe"
@@ -11,4 +12,11 @@ def test_numbers_as_strings():
 
 def test_special_characters():
     assert fullName("@John", "#Doe") == "My Full Name is @John #Doe"
+
+def test_add_numbers():
+    assert add(1, 2) == 3
+
+def test_mul_numbers():
+    assert multiple(2,2) == 4
+
 
