@@ -1,4 +1,6 @@
 from full_name import *
+
+
 def test_normal_case():
     assert fullName("John", "Doe") == "My Full Name is John Doe"
 
