@@ -1,6 +1,4 @@
-from full_name import fullName
-from full_name import add
-from full_name import multiple
+from full_name import fullName, add, multiple
 
 
 def test_normal_case():
