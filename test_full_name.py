@@ -1,4 +1,6 @@
-from full_name import *
+from full_name import fullName
+from full_name import add
+from full_name import multiple
 
 
 def test_normal_case():
@@ -23,5 +25,3 @@ def test_add_numbers():
 
 def test_mul_numbers():
     assert multiple(2, 2) == 4
-
-
