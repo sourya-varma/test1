@@ -1,5 +1,3 @@
-import sys
-
 def fullName(firstName, lastName):
     return f"My Full Name is {firstName} {lastName}"
 

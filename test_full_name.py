@@ -1,4 +1,3 @@
-from full_name import fullName
 from full_name import *
 
 def test_normal_case():
