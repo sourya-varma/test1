@@ -3,10 +3,9 @@ import sys
 def fullName(firstName, lastName):
     return f"My Full Name is {firstName} {lastName}"
 
-def add(a,b):
+def add(a, b):
     return a + b
 
-def multiple(a,b):
+def multiple(a, b):
     return a * b
-
 #Building CICD Pipeline Using Actions in GitHub
